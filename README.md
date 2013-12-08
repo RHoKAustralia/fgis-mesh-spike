@@ -11,7 +11,7 @@ The following capabilities were explored:
   - A [XBee Explorer USB](https://www.sparkfun.com/products/8687) or [XBee Explorer Dongle](https://www.sparkfun.com/products/9819) for each of the above
   - A copy of Portal to load the SnapPy images onto the device
   
-## Howto Replicate
+## Replicating the Spike
 The Synapse devices run an embedded version of python. The capabilities described above require uploading this 'snappy' script to each of the devices.
   
 Firstly follow the spark fun tutorial at [https://www.sparkfun.com/tutorials/367](https://www.sparkfun.com/tutorials/367). This will introduce you to Portal and show you how to erase the existing SnapPy image. (Hint: I have found the inserting the radio at the right moment to be more reliable than trying to find and short GND and RST)
@@ -22,7 +22,7 @@ Use portal to upload the SnapPy image in this repo to each of the devices. You w
 
 Use the ruby script to connect to each of the USB serial devices and start broadcasting the location.
 
-For example,:
+For example:
 ```
 ruby location.rb /dev/tty.usbserial-AD02AICC TruckA
 ```
