@@ -1,4 +1,5 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem "serialport"
+gem "em-serialport"
+gem "eventmachine"
